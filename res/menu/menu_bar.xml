@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:id="@+id/action_share"
+    android:icon="@drawable/ic_action_share"
+    android:title="@string/action_share"
+    android:showAsAction="ifRoom" 
+    android:actionProviderClass="android.widget.ShareActionProvider"/>
+  <item android:id="@+id/action_new"
+    android:icon="@drawable/ic_action_new"
+    android:title="@string/action_new"
+    android:showAsAction="always" />
+  <item android:id="@+id/action_merge"
+    android:icon="@drawable/ic_action_merge"
+    android:title="@string/action_merge"
+    android:showAsAction="always" />
+  <item android:id="@+id/action_edit"
+    android:icon="@drawable/ic_action_edit"
+    android:title="@string/action_edit"
+    android:showAsAction="always" />  
+   <item android:id="@+id/action_discard"
+    android:icon="@drawable/ic_action_discard"
+    android:title="@string/action_discard"
+    android:showAsAction="always" />
+   <item android:id="@+id/action_ringtone"
+    android:title="@string/action_ringtone"
+    android:showAsAction="ifRoom" />
+   
+    
+
+</menu>

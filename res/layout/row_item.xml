@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:padding="1dp"
+    android:descendantFocusability="blocksDescendants"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    >
+    
+    <CheckBox
+ android:id="@+id/checkBox"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:paddingTop="10dp"
+ android:gravity="left"
+ android:text="" 
+ />
+
+    <TextView
+        android:id="@+id/RecordingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/checkBox"
+        android:text="My recording #46.wav"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+       />
+
+    <TextView
+        android:id="@+id/timeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RecordingName"
+        android:layout_below="@+id/RecordingName"
+        android:text="2:18pm, July 13"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:paddingBottom="8dp"
+       
+         />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14dp"
+        android:text="00:05"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+     />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/timeDate"
+        android:layout_marginTop="70dp"
+        android:background="#696969" />
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/timeDate"
+        android:layout_alignBottom="@+id/timeDate"
+        android:layout_alignParentRight="true"
+        android:padding="8dp"
+        android:text="183.5 kB"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+         />
+
+</RelativeLayout>
